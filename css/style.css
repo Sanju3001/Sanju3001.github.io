@@ -41,6 +41,12 @@ body{
 canvas{
   display:block;
   vertical-align:bottom;
+  position: fixed;
+  z-index: -1;
+}
+
+.main-div {
+  position: absolute;
 }
 
 
