@@ -10,7 +10,7 @@
 }
 
 .listing li {
-  border: 1px solid #ffe066;
+  border: 1px solid black;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -18,14 +18,14 @@
 
 .listing .cta {
   margin-top: auto;
-  border-top: 1px solid #ffe066;
+  border-top: 1px solid black;
   padding: 10px;
   text-align: center;
   max-height: 60px;
 }
 
 .listing .body {
-  border-top: 1px solid #ffe066;
+  border-top: 1px solid black;
   padding: 10px;
 }
 
