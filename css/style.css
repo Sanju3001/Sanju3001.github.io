@@ -6,7 +6,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 2fr 2fr;
-  background-color: #5A62FF;
+  background-color: #E8E3E1;
 }
 
 .listing li {
