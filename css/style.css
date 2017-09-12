@@ -16,6 +16,10 @@
   grid-area: nav;
 }
 
+.info {
+  grid-area: info;
+}
+
 .site-one {
   grid-area: site-one;
 }
@@ -42,6 +46,7 @@
   grid-template-areas:
     "header"
     "nav"
+    "info"
     "site-one"
     "site-two"
     "site-three"
@@ -55,6 +60,7 @@
     grid-template-areas:
       "header     header"
       "nav        nav"
+      "info       info"
       "site-one   site-two"
       "site-three site-four"
       "footer     footer";
