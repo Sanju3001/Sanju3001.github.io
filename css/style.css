@@ -1,12 +1,5 @@
 
-.wrapper {
-  font-family: 'Lobster', cursive;
-}
 
-.pic-container {
-  height: 100px;
-  width: 100px;
-}
 
 .main-head {
   grid-area: header;
@@ -41,6 +34,7 @@
 }
 
 .wrapper {
+  font-family: 'Lobster Two', cursive;
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
