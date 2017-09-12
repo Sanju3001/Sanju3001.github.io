@@ -28,10 +28,8 @@
 }
 
 .pic-container {
-  min-height: 100px;
-  max-height: 160px;
-  min-width: 200px;
-  max-width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 .main-head {
