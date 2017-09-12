@@ -4,7 +4,7 @@
   margin: 2em;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(200px, 500px));
 }
 
 .listing li {
@@ -23,6 +23,13 @@
 
 .listing .body {
   padding: 10px;
+}
+
+.pic-container {
+  min-height: 100px;
+  max-height: 160px;
+  min-width: 200px;
+  max-width: 400px;
 }
 
 .main-head {
@@ -70,16 +77,16 @@
 }
 
 @media (min-width: 500px) {
-  .wrapper {
+  /*.wrapper {
     grid-template-columns: 2fr 2fr;
     grid-template-areas:
       "header     header"
       "nav        nav"
       "info       info"
       "listing    listing"
-      /*"site-three site-four"*/
+      "site-three site-four"
       "footer     footer";
-  }
+  }*/
   nav ul {
     display: flex;
     justify-content: space-between;
