@@ -6,6 +6,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 2fr 2fr;
+  background-color: #F8FFD3;
 }
 
 .listing li {
@@ -65,7 +66,7 @@
 }
 
 .wrapper {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Roboto', sans-serif;
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
@@ -88,6 +89,7 @@
       "footer     footer";
   }*/
   nav ul {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
   }
