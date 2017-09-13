@@ -22,7 +22,7 @@ canvas {
   grid-area: info;
 }
 
-.travels {
+/*.travels {
   padding: 10px;
   grid-area: travels;
 }
@@ -30,7 +30,7 @@ canvas {
 .projects {
   padding: 10px;
   grid-area: projects;
-}
+}*/
 
 .listing {
   padding: 10px;
@@ -77,8 +77,6 @@ canvas {
     "header"
     "nav"
     "info"
-    "travels"
-    "projects"
     "listing"
     "footer";
 }
@@ -107,7 +105,7 @@ canvas {
 
 .travel-container {
   height: 100%;
-  margin-left: 40px;
+  width: 100%;
 }
 
 .pic-container {
