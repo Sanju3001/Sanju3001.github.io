@@ -36,6 +36,11 @@ canvas {
   padding: 10px;
 }
 
+.travel-container {
+  height: 100%;
+  width: 100%;
+}
+
 .pic-container {
   height: 100%;
   width: 100%;
@@ -56,21 +61,10 @@ canvas {
   grid-area: info;
 }
 
-/*.site-one {
-  grid-area: site-one;
+.travels {
+  padding: 10px;
+  grid-area: travels;
 }
-
-.site-two {
-  grid-area: site-two;
-}
-
-.site-three {
-  grid-area: site-three;
-}
-
-.site-four {
-  grid-area: site-four;
-}*/
 
 .main-footer {
   grid-area: footer;
@@ -86,6 +80,7 @@ canvas {
     "header"
     "nav"
     "info"
+    "travels"
     "listing"
     "footer";
 }
