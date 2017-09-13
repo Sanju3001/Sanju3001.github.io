@@ -5,6 +5,33 @@ canvas {
     z-index: -1;
 }
 
+
+.main-head {
+  grid-area: header;
+  color: powderblue;
+}
+
+.main-nav {
+  padding: 10px;
+  grid-area: nav;
+  border-bottom: 1px solid powderblue;
+}
+
+.info {
+  padding: 10px;
+  grid-area: info;
+}
+
+.travels {
+  padding: 10px;
+  grid-area: travels;
+}
+
+.projects {
+  padding: 10px;
+  grid-area: projects;
+}
+
 .listing {
   padding: 10px;
   list-style: none;
@@ -36,37 +63,6 @@ canvas {
   padding: 10px;
 }
 
-.travel-container {
-  height: 96%;
-  width: 96%;
-}
-
-.pic-container {
-  height: 100%;
-  width: 100%;
-}
-
-.main-head {
-  grid-area: header;
-  color: powderblue;
-}
-
-.main-nav {
-  padding: 10px;
-  grid-area: nav;
-  border-bottom: 1px solid powderblue;
-}
-
-.info {
-  padding: 10px;
-  grid-area: info;
-}
-
-.travels {
-  padding: 10px;
-  grid-area: travels;
-}
-
 .main-footer {
   grid-area: footer;
 }
@@ -82,6 +78,7 @@ canvas {
     "nav"
     "info"
     "travels"
+    "projects"
     "listing"
     "footer";
 }
@@ -107,3 +104,14 @@ canvas {
 .nav-list {
   list-style: none;
 }
+
+.travel-container {
+  height: 100%;
+  margin-left: 40px;
+}
+
+.pic-container {
+  height: 100%;
+  width: 100%;
+}
+
