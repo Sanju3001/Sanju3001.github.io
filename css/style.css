@@ -39,6 +39,7 @@ canvas {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr 2fr;
   background-color: #E8E3E1;
 }
 
