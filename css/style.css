@@ -1,6 +1,6 @@
 canvas {
     display:block;
-    /*background: rgb(33,36,50);*/
+    background: rgb(255,255,255);
     position: fixed;
     z-index: -1;
 }
@@ -39,7 +39,7 @@ canvas {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 2fr 2fr;
-  background-color: #E8E3E1;
+  /*background-color: #E8E3E1;*/
 }
 
 .listing li {
