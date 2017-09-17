@@ -1,6 +1,6 @@
 canvas {
     display:block;
-    background: rgb(33,36,50);
+    /*background: rgb(33,36,50);*/
     position: fixed;
     z-index: -1;
 }
@@ -8,13 +8,13 @@ canvas {
 
 .main-head {
   grid-area: header;
-  color: powderblue;
+  color: #91C61E;
 }
 
 .main-nav {
   padding: 10px;
   grid-area: nav;
-  border-bottom: 1px solid powderblue;
+  border-bottom: 5px solid #91C61E;
 }
 
 .info {
@@ -43,15 +43,15 @@ canvas {
 }
 
 .listing li {
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 5px solid #91C61E;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .listing .cta {
   margin-top: auto;
-  border-top: 1px solid black;
+  border-top: 5px solid #91C61E;
   padding: 10px;
   text-align: center;
   max-height: 60px;
@@ -59,7 +59,7 @@ canvas {
 }
 
 .listing .body {
-  border-top: 1px solid black;
+  border-top: 5px solid #91C61E;
   padding: 10px;
 }
 
