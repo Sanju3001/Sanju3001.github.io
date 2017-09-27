@@ -5,7 +5,6 @@ canvas {
     z-index: -1;
 }
 
-
 .main-head {
   grid-area: header;
   color: #91C61E;
@@ -21,16 +20,6 @@ canvas {
   padding: 10px;
   grid-area: info;
 }
-
-/*.travels {
-  padding: 10px;
-  grid-area: travels;
-}
-
-.projects {
-  padding: 10px;
-  grid-area: projects;
-}*/
 
 .listing {
   padding: 10px;
@@ -54,7 +43,7 @@ canvas {
 }
 
 .small {
-  font-size: xx-small;
+  font-size: x-small;
 }
 
 .listing .cta {
@@ -90,16 +79,7 @@ canvas {
 }
 
 @media (min-width: 500px) {
-  /*.wrapper {
-    grid-template-columns: 2fr 2fr;
-    grid-template-areas:
-      "header     header"
-      "nav        nav"
-      "info       info"
-      "listing    listing"
-      "site-three site-four"
-      "footer     footer";
-  }*/
+
   nav ul {
     padding: 10px;
     display: flex;
