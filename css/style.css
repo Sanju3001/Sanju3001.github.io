@@ -31,6 +31,10 @@ canvas {
   /*background-color: #E8E3E1;*/
 }
 
+h4 {
+  margin: 0;
+}
+
 .racer {
   grid-column: 1 / 3;
 }
