@@ -53,6 +53,10 @@ canvas {
   flex-direction: column;
 }
 
+.small {
+  font-size: xx-small;
+}
+
 .listing .cta {
   margin-top: auto;
   border-top: 5px solid #91C61E;
