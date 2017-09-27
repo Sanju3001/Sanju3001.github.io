@@ -43,6 +43,10 @@ canvas {
 }
 
 .racer {
+  grid-column: 1 / 4;
+}
+
+.other {
   grid-column: 1 / 2;
 }
 
@@ -101,6 +105,16 @@ canvas {
     display: flex;
     justify-content: space-between;
   }
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 .nav-list {
