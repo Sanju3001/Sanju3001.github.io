@@ -1,5 +1,5 @@
 canvas {
-    display:block;
+    display: block;
     background: teal;
     position: fixed;
     z-index: -1;
@@ -42,7 +42,11 @@ canvas {
   /*background-color: #E8E3E1;*/
 }
 
-.listing li {
+.racer {
+  grid-column: 1 / 2;
+}
+
+.racer, .other {
   border: 5px solid #91C61E;
   border-radius: 10px;
   display: flex;
