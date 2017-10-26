@@ -69,6 +69,7 @@ h4 {
 }
 
 .wrapper {
+  margin: 0;
   padding: 0;
   background-color: #FCFDFF;
   font-family: 'Dosis', sans-serif;
